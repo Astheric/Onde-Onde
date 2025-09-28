@@ -558,9 +558,6 @@
   .absolute {
     position: absolute;
   }
-  .fixed {
-    position: fixed;
-  }
   .hero-content {
     isolation: isolate;
     display: flex;
@@ -584,38 +581,11 @@
       grid-row-start: 1;
     }
   }
-  .my-1 {
-    margin-block: calc(var(--spacing) * 1);
-  }
-  .my-px {
-    margin-block: 1px;
-  }
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
-  .mt-16 {
-    margin-top: calc(var(--spacing) * 16);
-  }
-  .mt-\[-200\] {
-    margin-top: -200;
-  }
-  .mt-\[16\] {
-    margin-top: 16;
-  }
-  .mt-\[20px\] {
-    margin-top: 20px;
-  }
-  .mt-\[50px\] {
-    margin-top: 50px;
-  }
   .mt-\[70px\] {
     margin-top: 70px;
-  }
-  .mt-\[200\] {
-    margin-top: 200;
-  }
-  .mt-\[200px\] {
-    margin-top: 200px;
   }
   .navbar {
     display: flex;
@@ -698,8 +668,8 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
-  .pt-16 {
-    padding-top: calc(var(--spacing) * 16);
+  .pr-10 {
+    padding-right: calc(var(--spacing) * 10);
   }
   .text-5xl {
     font-size: var(--text-5xl);
