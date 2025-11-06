@@ -584,9 +584,6 @@
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
-  .mt-\[70px\] {
-    margin-top: 70px;
-  }
   .navbar {
     display: flex;
     width: 100%;
@@ -629,6 +626,9 @@
   .w-52 {
     width: calc(var(--spacing) * 52);
   }
+  .w-full {
+    width: 100%;
+  }
   .max-w-sm {
     max-width: var(--container-sm);
   }
@@ -668,8 +668,8 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
-  .pr-10 {
-    padding-right: calc(var(--spacing) * 10);
+  .text-center {
+    text-align: center;
   }
   .text-5xl {
     font-size: var(--text-5xl);
@@ -728,6 +728,16 @@
   .lg\:flex-row-reverse {
     @media (width >= 64rem) {
       flex-direction: row-reverse;
+    }
+  }
+  .lg\:pr-10 {
+    @media (width >= 64rem) {
+      padding-right: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:text-left {
+    @media (width >= 64rem) {
+      text-align: left;
     }
   }
 }
